@@ -47,7 +47,7 @@ if($_POST['redirect'] == "forums"){
 			}, 4000);
 		}, false);
 	})();
-	//]]>
+
 	</script>
 </head>
 <body>

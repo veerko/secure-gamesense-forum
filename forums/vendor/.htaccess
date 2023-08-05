@@ -1,0 +1,12 @@
+
+#----------------------------------------------------------------cp:ppd
+# Section managed by cPanel: Password Protected Directories     -cp:ppd
+# - Do not edit this section of the htaccess file!              -cp:ppd
+#----------------------------------------------------------------cp:ppd
+AuthType Basic
+AuthName "GameSense / Vendor"
+AuthUserFile "/home/host/.htpasswds/public_html/gamesense/forums/vendor/passwd"
+Require valid-user
+#----------------------------------------------------------------cp:ppd
+# End section managed by cPanel: Password Protected Directories -cp:ppd
+#----------------------------------------------------------------cp:ppd
